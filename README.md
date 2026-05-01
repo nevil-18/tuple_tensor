@@ -1,4 +1,4 @@
-# Hybrid SQL + Vector Database Architecture for LLM Applications
+# TupleTensor: SQL + Vector Retrieval Architecture for LLM Applications
 
 This project is a full-stack starter built from scratch with:
 
@@ -6,7 +6,7 @@ This project is a full-stack starter built from scratch with:
 - **Vector Layer:** Pluggable embedding provider (`local` or `OpenAI`) + cosine similarity retrieval
 - **Frontend:** React + Vite
 
-It demonstrates **hybrid retrieval**:
+TupleTensor demonstrates **hybrid retrieval**:
 
 1. Structured filtering and lookup through SQL
 2. Semantic similarity ranking through vector embeddings
@@ -22,7 +22,7 @@ It demonstrates **hybrid retrieval**:
 ## Project Structure
 
 ```text
-hybrid-sql-vector-llm-app/
+tuple_tensor/
   backend/
     data/
     src/
